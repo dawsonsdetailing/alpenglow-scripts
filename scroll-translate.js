@@ -19,7 +19,7 @@ const speedMultiplier = 1.7;
 const friction = 0.92;
 const minVelocity = 0.5;
 
-const targetSelector = '.track_flex';
+const targetSelector = '.sticky_element';
 
 window.addEventListener("touchstart", function (e) {
   const touch = e.touches[0];
